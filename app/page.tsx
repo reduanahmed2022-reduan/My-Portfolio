@@ -120,7 +120,14 @@ export default function Home() {
         <section id="resume" className="border-y border-violet-400/10 bg-[radial-gradient(ellipse_at_50%_50%,rgba(91,33,182,.2),transparent_65%)] py-16">
           <div className="container-shell flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
             <div><p className="text-xs font-bold uppercase tracking-[.25em] text-violet-300">Resume</p><h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl">Want to know more about my background?</h2><p className="mt-3 text-sm text-slate-400">My downloadable resume will be added here soon.</p></div>
-            <a href="#contact" className="rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#11111c] transition hover:bg-violet-100">Request my resume <span aria-hidden>↗</span></a>
+           <a
+           href="/Reduan_Ahmed_Resume.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#11111c] transition hover:bg-violet-100"
+           >
+           Request my resume <span aria-hidden>↗</span>
+           </a>
           </div>
         </section>
 
