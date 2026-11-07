@@ -28,7 +28,14 @@ export default function Home() {
               <p className="mt-6 max-w-xl text-base leading-8 text-slate-400">I build clean, responsive web experiences and enjoy turning ideas into useful digital products. I&apos;m continuously improving my skills in JavaScript, React, Next.js and backend development.</p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <a href="#projects" className="rounded-full bg-gradient-to-r from-violet-600 to-blue-500 px-7 py-3.5 text-sm font-bold text-white shadow-xl shadow-violet-900/30 transition hover:brightness-110">Explore my work <span aria-hidden>↗</span></a>
-                <a href="#resume" className="rounded-full border border-white/15 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-violet-400 hover:bg-white/5">View / Download CV ↓</a>
+              <a
+              href="/Reduan_Ahmed_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white/15 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-violet-400 hover:bg-white/5"
+              >
+              View / Download CV ↓
+              </a>
               </div>
               <div className="mt-9 flex flex-wrap gap-5 text-sm text-slate-400">
                 <a className="transition hover:text-white" href="https://github.com/reduanahmed2022-reduan" target="_blank" rel="noreferrer">GitHub ↗</a>
