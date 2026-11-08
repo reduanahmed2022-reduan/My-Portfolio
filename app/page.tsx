@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import SectionHeading from "@/components/SectionHeading";
 import { projects } from "@/data/projects";
+import Image from "next/image";
 
 const skills = [
   { group: "Frontend", items: ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "Tailwind CSS"] },
@@ -28,14 +29,14 @@ export default function Home() {
               <p className="mt-6 max-w-xl text-base leading-8 text-slate-400">I build clean, responsive web experiences and enjoy turning ideas into useful digital products. I&apos;m continuously improving my skills in JavaScript, React, Next.js and backend development.</p>
               <div className="mt-9 flex flex-wrap gap-3">
                 <a href="#projects" className="rounded-full bg-gradient-to-r from-violet-600 to-blue-500 px-7 py-3.5 text-sm font-bold text-white shadow-xl shadow-violet-900/30 transition hover:brightness-110">Explore my work <span aria-hidden>↗</span></a>
-              <a
-              href="/Reduan_Ahmed_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-white/15 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-violet-400 hover:bg-white/5"
-              >
-              View / Download CV ↓
-              </a>
+                <a
+                  href="/Reduan_Ahmed_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-white/15 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-violet-400 hover:bg-white/5"
+                >
+                  View / Download CV ↓
+                </a>
               </div>
               <div className="mt-9 flex flex-wrap gap-5 text-sm text-slate-400">
                 <a className="transition hover:text-white" href="https://github.com/reduanahmed2022-reduan" target="_blank" rel="noreferrer">GitHub ↗</a>
@@ -50,17 +51,29 @@ export default function Home() {
 
               </div>
             </div>
+
             <div className="relative mx-auto w-full max-w-[390px]">
               <div className="absolute -inset-5 rounded-[42px] bg-gradient-to-br from-violet-600/30 to-sky-500/20 blur-2xl" />
               <div className="panel relative overflow-hidden rounded-[34px] p-4">
-                <div className="flex items-center justify-between px-2 py-3 text-xs text-slate-500"><span>PROFILE / 001</span><span className="text-violet-300">SYLHET, BD</span></div>
-                <div className="relative grid aspect-[4/4.5] place-items-center overflow-hidden rounded-[25px] bg-[radial-gradient(circle_at_50%_35%,rgba(139,92,246,.34),transparent_55%),linear-gradient(145deg,#17152c,#0d1728)]">
-                  <div className="absolute h-64 w-64 rounded-full border border-violet-300/20" />
-                  <div className="absolute h-52 w-52 rounded-full border border-sky-300/15" />
-                  <div className="relative grid h-44 w-44 place-items-center rounded-full border border-white/15 bg-gradient-to-br from-violet-500 to-sky-500 text-6xl font-black text-white shadow-2xl shadow-violet-900/50">RA</div>
-                  <div className="absolute bottom-6 left-6 rounded-xl border border-white/10 bg-black/30 px-4 py-3 backdrop-blur"><p className="text-xs text-slate-400">FOCUS</p><p className="mt-1 text-sm font-semibold text-white">Building for the web</p></div>
+                <div className="flex items-center justify-between px-2 py-3 text-xs text-slate-500">
+                  <span>PROFILE / 001</span>
+                  <span className="text-violet-300">SYLHET, BD</span>
                 </div>
-                <p className="px-2 pb-2 pt-4 text-center text-xs text-slate-500">Replace this initials avatar with your professional photo.</p>
+                <div className="relative grid aspect-[4/4.5] place-items-center overflow-hidden rounded-[25px] bg-[radial-gradient(circle_at_50%_35%,rgba(139,92,246,.34),transparent_55%),linear-gradient(145deg,#17152c,#0d1728)]">
+                  <div className="absolute h-88 w-88 rounded-full border border-violet-300/20" />
+                  <div className="absolute h-80 w-80 rounded-full border border-sky-300/15" />
+
+                  <div className="relative h-80 w-80 overflow-hidden rounded-full border-2 border-white/20 shadow-2xl shadow-violet-900/50 bg-[#121022]">
+                    <Image
+                      src="/images/reduan2.png"
+                      alt="Reduan Ahmed - Junior Web Developer"
+                      fill
+                      priority
+                      sizes="320px"
+                      className="object-cover object-top rounded-full"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -95,7 +108,7 @@ export default function Home() {
           <div className="container-shell">
             <SectionHeading eyebrow="Academic background" title="Education" />
             <div className="panel max-w-3xl rounded-3xl p-7 sm:p-9">
-              <div className="flex flex-col justify-between gap-3 sm:flex-row"><div><p className="text-xs font-bold uppercase tracking-[.2em] text-violet-300">Diploma</p><h3 className="mt-3 text-xl font-bold text-white">Diploma in Computer Science</h3><p className="mt-2 text-slate-400">Institution name to be added</p></div><span className="h-fit w-fit rounded-full border border-white/10 px-4 py-2 text-sm text-slate-300">Completed · 2024</span></div>
+              <div className="flex flex-col justify-between gap-3 sm:flex-row"><div><p className="text-xs font-bold uppercase tracking-[.2em] text-violet-300">Diploma</p><h3 className="mt-3 text-xl font-bold text-white">Diploma in Computer Science</h3><p className="mt-2 text-slate-400">Sylhet Polytechnic Institute</p></div><span className="h-fit w-fit rounded-full border border-white/10 px-4 py-2 text-sm text-slate-300">Completed · 2024</span></div>
               <div className="mt-7 flex flex-wrap gap-3"><span className="rounded-xl bg-white/5 px-4 py-3 text-sm text-slate-300">CGPA <strong className="ml-2 text-white">3.10</strong></span><span className="rounded-xl bg-white/5 px-4 py-3 text-sm text-slate-300">Field <strong className="ml-2 text-white">Computer Science</strong></span></div>
             </div>
           </div>
@@ -119,15 +132,15 @@ export default function Home() {
 
         <section id="resume" className="border-y border-violet-400/10 bg-[radial-gradient(ellipse_at_50%_50%,rgba(91,33,182,.2),transparent_65%)] py-16">
           <div className="container-shell flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
-            <div><p className="text-xs font-bold uppercase tracking-[.25em] text-violet-300">Resume</p><h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl">Want to know more about my background?</h2><p className="mt-3 text-sm text-slate-400">My downloadable resume will be added here soon.</p></div>
-           <a
-           href="/Reduan_Ahmed_Resume.pdf"
-           target="_blank"
-           rel="noopener noreferrer"
-           className="rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#11111c] transition hover:bg-violet-100"
-           >
-           Request my resume <span aria-hidden>↗</span>
-           </a>
+            <div><p className="text-xs font-bold uppercase tracking-[.25em] text-violet-300">Resume</p><h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl">Want to know more about my background?</h2><p className="mt-3 text-sm text-slate-400">Download my resume to explore my technical skills, full-stack projects, and detailed experience.</p></div>
+            <a
+              href="/Reduan_Ahmed_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-white px-7 py-3.5 text-sm font-bold text-[#11111c] transition hover:bg-violet-100"
+            >
+              Download Resume ↓ <span aria-hidden>↗</span>
+            </a>
           </div>
         </section>
 
