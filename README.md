@@ -1,32 +1,129 @@
-# Reduan Ahmed — Developer Portfolio
+# Reduan Ahmed | Developer Portfolio
 
-A responsive portfolio built with Next.js 16, React and Tailwind CSS 4.
+A modern, responsive personal portfolio website showcasing my skills, education, projects, and journey as a Junior Full Stack Web Developer.
 
-## Run locally
+## 🌐 Live Website
+
+[Visit My Portfolio](https://my-portfolio-reduan1.vercel.app/)
+
+## 👨‍💻 About Me
+
+Hello! I'm **Reduan Ahmed**, a Junior Full Stack Web Developer from Sylhet, Bangladesh.
+
+I enjoy building modern, responsive, and user-friendly web applications. I am continuously learning new technologies and improving my development skills through practical projects.
+
+My current focus is on JavaScript, React, Next.js, and full-stack web development.
+
+## 🚀 Technologies Used
+
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- HTML5
+- CSS3
+- Git & GitHub
+
+## ✨ Features
+
+- Modern and responsive portfolio design
+- Professional introduction and profile section
+- About Me section
+- Skills and technology overview
+- Education information
+- Featured project showcase
+- Individual project details pages
+- Live project and GitHub repository links
+- Contact information and social links
+- Resume viewing option
+- Responsive navigation for mobile and desktop
+
+## 💼 Featured Projects
+
+### 1. BookNook
+An online library application for discovering, adding, borrowing, and returning books.
+
+- Live Website: https://book-nook-reduan.vercel.app/
+- GitHub: https://github.com/reduanahmed2022-reduan/Book-Nook
+
+### 2. BazarDor
+A web application focused on presenting market-price information through an organized interface.
+
+- Live Website: https://bazardorweb.vercel.app
+- GitHub: https://github.com/reduanahmed2022-reduan/Bazardorweb
+
+### 3. Fit-Log
+A fitness tracking application designed to organize workout activities and monitor fitness progress.
+
+- Live Website: https://fit-log-reduan1.vercel.app/
+- GitHub: https://github.com/reduanahmed2022-reduan/Fit-log
+
+## 🎓 Education
+
+**Diploma in Computer Science**  
+Sylhet Polytechnic Institute  
+2020 – 2024
+
+## ⚙️ Run Locally
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd reduan-portfolio
+```
+
+### 3. Install dependencies
 
 ```bash
 npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-Open http://localhost:3000.
+Open http://localhost:3000 in your browser.
 
-## Before submission — personalize these items
+## 📁 Project Structure
 
-1. Replace the initials avatar in `app/page.tsx` with your professional photo.
-2. Add your institution name in the Education section.
-3. Add your LinkedIn and Facebook profile URLs in `app/page.tsx`.
-4. Check every project description, challenge and improvement in `data/projects.ts`.
-5. Add final project live URLs and the correct client repository links in `data/projects.ts`.
-6. Add your resume as `public/resume.pdf`, then change the Resume button in `app/page.tsx` to `href="/resume.pdf" download`.
-7. Confirm your phone number and email are correct before publishing.
+```text
+src/
+├── app/
+│   ├── projects/
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── components/
+└── data/
+    └── projects.js
 
-## Deploy
+public/
+├── projects/
+├── profile.jpg
+└── resume.pdf
+```
 
-Push this folder to GitHub and import the repository into Vercel. Use the default Next.js build settings. After deployment, open the live URL and test all navigation links and project detail pages.
+## 📬 Contact Me
 
-## Notes
+- Email: reduanahmed2022@gmail.com
+- Phone: +8801838531892
+- GitHub: https://github.com/reduanahmed2022-reduan
+- LinkedIn: https://www.linkedin.com/in/Reduan-Ahmed-BD/
 
-- Project detail pages are generated for each entry in `data/projects.ts`.
-- Project cover illustrations are local SVG files in `public/projects`.
-- No external icon or animation packages are required.
+## 📄 License
+
+This project is created for personal portfolio and learning purposes.
+
+---
+
+**Designed & Developed by Reduan Ahmed**
