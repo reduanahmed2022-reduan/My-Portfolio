@@ -71,7 +71,7 @@ Follow these steps to run the project on your local machine.
 ### 1. Clone the repository
 
 ```bash
-[git clone YOUR_GITHUB_REPOSITORY_URL](https://github.com/reduanahmed2022-reduan/My-Portfolio.git)
+(https://github.com/reduanahmed2022-reduan/My-Portfolio.git)
 ```
 
 ### 2. Navigate to the project folder
