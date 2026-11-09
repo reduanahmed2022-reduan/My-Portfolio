@@ -118,7 +118,7 @@ public/
 - Email: reduanahmed2022@gmail.com
 - Phone: +8801838531892
 - GitHub: https://github.com/reduanahmed2022-reduan
-- LinkedIn: https://www.linkedin.com/in/Reduan-Ahmed-BD/
+- LinkedIn: https://www.linkedin.com/in/reduan-ahmed-bd/
 
 ## 📄 License
 
